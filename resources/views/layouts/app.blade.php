@@ -29,7 +29,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="/">Example Blog</a>
+        <a class="navbar-brand" href="/"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
@@ -40,8 +40,12 @@
                     <a class="nav-link" href="/">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">О нас</a>
+                    <a class="nav-link" href="http://127.0.0.1:8000/login">Войти</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:8000/register">Регистрация</a>
+                </li>
+                
 
 
             </ul>

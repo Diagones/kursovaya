@@ -44,10 +44,10 @@
             <form method="post" action="{!! route('comments.add') !!}">
                 {!! csrf_field() !!}
                 <input type="hidden" value="{{$article->id}}" name="article_id">
-                <p>Комментарий:<br>
+                <p>Ваша рецензия:<br>
                     <textarea class="form-control" name="comment"></textarea></p>
                 <br>
-                <button type="submit" class="btn btn-success" style="cursor:pointer;">Добавить комментарий</button>
+                <button type="submit" class="btn btn-success" style="cursor:pointer;">Оставить рецензию</button>
             </form>
         @endif
         </div>

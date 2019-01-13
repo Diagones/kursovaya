@@ -3,15 +3,15 @@
     <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
 
 
-        <h2>Комментарии</h2>
+        <h2>Рецензии</h2>
         <div class="table-responsive">
             <table class="table table-striped">
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>Статья</th>
+                    <th>Фильм</th>
                     <th>Пользователь</th>
-                    <th>Коммент</th>
+                    <th>Рецензия</th>
                     <th>Статус</th>
                     <th>Дата добавления</th>
                 </tr>

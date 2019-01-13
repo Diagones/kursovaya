@@ -1,9 +1,9 @@
 @extends('layouts.admin')
 @section('content')
     <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
-        <h1>Список категорий</h1>
+        <h1>Список жанров</h1>
         <br>
-        <a href="{!! route('categories.add') !!}" class="btn btn-info">Добавить категорию</a>
+        <a href="{!! route('categories.add') !!}" class="btn btn-info">Добавить жанр</a>
         <br><br><br>
       <table class="table table-bordered">
           <tr>

@@ -24,6 +24,10 @@ Route::group(['middleware' => 'auth'], function(){
    //comments
    Route::post('/comments/add', 'CommentsController@addComment')->name('comments.add');
 
+Route::resource('queries', 'SearchController');
+Route::post('/', 'SearchController@search');
+Route::get('/home', 'HomeController@index');
+
    //admin
     Route::group(['middleware' => 'admin', 'prefix' => 'admin'], function() {
         Route::get('/', 'Admin\AccountController@index')->name('admin');

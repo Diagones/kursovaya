@@ -47,10 +47,10 @@ class ArticlesController extends Controller
                ]);
            }
 
-           return redirect()->route('articles')->with('success', 'Статья успешно добавлена');
+           return redirect()->route('articles')->with('success', 'Фильм успешно добавлен');
        }
 
-       return back()->with('error' , 'Не удалось добавить статью');
+       return back()->with('error' , 'Не удалось добавить фильм');
 
     }
     public function editArticle(int $id)
@@ -104,10 +104,10 @@ class ArticlesController extends Controller
                 }
             }
 
-            return redirect()->route('articles')->with('success', 'Статья успешно обновлена');
+            return redirect()->route('articles')->with('success', 'Фильм успешно обновлен');
         }
 
-        return back()->with('error' , 'Не удалось изменить статью');
+        return back()->with('error' , 'Не удалось изменить фильм');
     }
     public function deleteArticle(Request $request)
     {

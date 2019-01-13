@@ -33,10 +33,10 @@ class CategoriesController extends Controller
                 'description' => $request->input('description')
             ]);
             if($objCategory) {
-                return redirect()->route('categories')->with('success', 'Категория успешно добавлена');
+                return redirect()->route('categories')->with('success', 'Жанр успешно добавлен');
             }
 
-            return back()->with('error', 'Не удалось добавить категорию');
+            return back()->with('error', 'Не удалось добавить жанр');
         }catch(ValidationException $e) {
             \Log::error($e->getMessage());
             return back()->with('error', $e->getMessage());
@@ -67,10 +67,10 @@ class CategoriesController extends Controller
 
 
             if($objCategory->save()) {
-                return redirect()->route('categories')->with('success', 'Категория успешно изменена');
+                return redirect()->route('categories')->with('success', 'Жанр успешно изменен');
             }
 
-            return back()->with('error', 'Не удалось изменить категорию');
+            return back()->with('error', 'Не удалось изменить жанр');
         }catch(ValidationException $e) {
             \Log::error($e->getMessage());
             return back()->with('error', $e->getMessage());

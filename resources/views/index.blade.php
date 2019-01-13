@@ -8,14 +8,15 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1>Legacy</h1>
+                        <span class="subheading">Рецензии к фильмам</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+		 
     <!-- Main Content -->
     <div class="container">
         <div class="row">
@@ -44,7 +45,7 @@
                 <hr>
                 <!-- Pager -->
                 <div class="clearfix">
-                    <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+                    <a class="btn btn-primary float-right" href="#">Последние фильмы &rarr;</a>
                 </div>
             </div>
         </div>

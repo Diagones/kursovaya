@@ -47,16 +47,16 @@
         <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link" href="{!! route('categories') !!}">Категории </a>
+                    <a class="nav-link" href="{!! route('categories') !!}">Жанры </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{!! route('articles') !!}">Статьи</a>
+                    <a class="nav-link" href="{!! route('articles') !!}">Фильмы</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{!! route('users') !!}">Пользователи</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{!! route('comments') !!}">Комментарии</a>
+                    <a class="nav-link" href="{!! route('comments') !!}">Рецензии</a>
                 </li>
             </ul>
 
